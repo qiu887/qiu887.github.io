@@ -7860,3 +7860,12 @@ blockquote.pullquote.right {
     transform: rotate(360deg);
   }
 }
+/* 强制设置八重樱背景图 */
+body {
+  background-image: url("/img/bg.jpg") !important;
+  background-color: #fef9fb !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
